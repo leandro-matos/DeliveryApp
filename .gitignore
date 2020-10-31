@@ -115,6 +115,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+delivery.egg-info/
 env/
 venv/
 ENV/
