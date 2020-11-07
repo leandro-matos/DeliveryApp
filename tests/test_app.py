@@ -3,7 +3,8 @@ def test_app_is_created(app):
 
 
 def test_config_is_loaded(config):
-    assert config["DEBUG"] is False
+    assert config["DEBUG"] is True
+
 
 def test_requests_return_404(client):
     assert client.get("/url_nao_existe").status_code == 404
